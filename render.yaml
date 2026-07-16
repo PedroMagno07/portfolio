@@ -1,0 +1,16 @@
+# Blueprint do Render — site estático, sem etapa de build.
+# Também é possível configurar manualmente pelo painel:
+#   New > Static Site > Publish Directory: .  (Build Command em branco)
+services:
+  - type: web
+    name: portfolio-pedro-magno
+    runtime: static
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin

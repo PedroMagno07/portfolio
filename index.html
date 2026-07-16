@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedro Magno — Automação, Dados e Agentes de IA</title>
+  <meta name="description" content="Portfólio de Pedro Magno — Estagiário de Inovação na Intertechne. Automação com Power Platform, agentes de IA, análise de dados com Python e Power BI. Curitiba, PR.">
+  <meta property="og:title" content="Pedro Magno — Automação, Dados e Agentes de IA">
+  <meta property="og:description" content="Transformo processos manuais em soluções automatizadas e orientadas a dados — código, Power Platform e IA aplicada.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="en_US">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230a84ff'/%3E%3Ctext x='50' y='68' font-size='52' font-family='system-ui' font-weight='700' text-anchor='middle' fill='white'%3EPM%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=6">
+</head>
+<body>
+
+  <!-- ===== NAVEGAÇÃO ===== -->
+  <header class="nav" id="nav">
+    <nav class="nav__inner" aria-label="Navegação principal">
+      <a href="#hero" class="nav__logo" data-i18n="nav.logo">Pedro Magno</a>
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#about" class="nav__link" data-i18n="nav.about">Sobre</a></li>
+        <li><a href="#experience" class="nav__link" data-i18n="nav.experience">Experiência</a></li>
+        <li><a href="#projects" class="nav__link" data-i18n="nav.projects">Projetos</a></li>
+        <li><a href="#education" class="nav__link" data-i18n="nav.education">Formação</a></li>
+        <li><a href="#skills" class="nav__link" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta" data-i18n="nav.contact">Contato</a></li>
+        <li class="nav__lang" role="group" aria-label="Idioma / Language">
+          <button class="lang-btn" data-lang="pt" aria-pressed="true">PT</button>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero section" id="hero">
+      <canvas id="heroCanvas" class="hero__canvas" aria-hidden="true"></canvas>
+      <div class="hero__content container">
+        <h1 class="hero__title reveal">Pedro Magno</h1>
+        <p class="hero__subtitle reveal" data-i18n="hero.subtitle">Automação · Análise de Dados · Agentes de IA</p>
+        <p class="hero__lead reveal" data-i18n="hero.lead">Transformo processos manuais em soluções automatizadas e orientadas a dados — combinando código, Power Platform e Inteligência Artificial para resolver problemas reais dentro das empresas.</p>
+        <div class="hero__actions reveal">
+          <a href="#projects" class="btn btn--primary" data-i18n="hero.ctaProjects">Ver projetos</a>
+          <a href="#contact" class="btn btn--ghost" data-i18n="hero.ctaContact">Contato</a>
+        </div>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Rolar para a próxima seção">
+        <span class="hero__scroll-dot"></span>
+      </a>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="section section--about" id="about">
+      <div class="container container--narrow">
+        <p class="eyebrow reveal" data-i18n="about.eyebrow">Sobre</p>
+        <h2 class="section__title reveal" data-i18n="about.title">Menos tarefa repetitiva. Mais decisão com dados.</h2>
+        <p class="section__text reveal" data-i18n="about.p1">Atuo como Estagiário de Inovação na Intertechne, onde identifico gargalos e oportunidades de melhoria e desenvolvo soluções do zero: fluxos automatizados com Power Automate, aplicações internas com Power Apps e código, agentes de IA para otimização de rotinas, e dashboards no Power BI com dados de diversas fontes — SharePoint, Excel, SQL e CSV.</p>
+        <p class="section__text reveal" data-i18n="about.p2">Curso Ciência da Computação na PUCPR e trago dois anos de experiência prévia em automação e dados na indústria de instrumentação geotécnica. Meu foco é sempre o mesmo: encontrar o processo ineficiente, entender o problema de negócio e entregar uma solução que economize tempo de verdade.</p>
+        <div class="about__stats reveal">
+          <div class="stat">
+            <span class="stat__num" data-i18n="about.stat1num">2+</span>
+            <span class="stat__label" data-i18n="about.stat1">anos em automação e dados</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-i18n="about.stat2num">6</span>
+            <span class="stat__label" data-i18n="about.stat2">certificações e cursos</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-i18n="about.stat3num">4º</span>
+            <span class="stat__label" data-i18n="about.stat3">período — Ciência da Computação, PUCPR</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIÊNCIA ===== -->
+    <section class="section section--alt" id="experience">
+      <div class="container">
+        <p class="eyebrow reveal" data-i18n="exp.eyebrow">Experiência</p>
+        <h2 class="section__title reveal" data-i18n="exp.title">Onde já automatizei de verdade</h2>
+        <div class="timeline">
+          <article class="timeline__item card reveal">
+            <div class="timeline__meta">
+              <span class="timeline__period" data-i18n="exp.job1.period">abr/2026 – atual</span>
+              <span class="timeline__place" data-i18n="exp.job1.place">Curitiba, PR · Presencial</span>
+            </div>
+            <div class="timeline__body">
+              <h3 class="timeline__role" data-i18n="exp.job1.role">Estagiário de Inovação</h3>
+              <p class="timeline__company">Intertechne</p>
+              <ul class="timeline__bullets">
+                <li data-i18n="exp.job1.b1">Desenvolvimento de agentes de IA para automatizar rotinas operacionais e facilitar o acesso a grandes volumes de dados internos.</li>
+                <li data-i18n="exp.job1.b2">Criação de aplicações internas com Power Apps e código para otimização de processos e consolidação de dados.</li>
+                <li data-i18n="exp.job1.b3">Automação de fluxos de trabalho com Power Automate, reduzindo tarefas manuais repetitivas.</li>
+                <li data-i18n="exp.job1.b4">Dashboards no Power BI integrando SharePoint, Excel, SQL e CSV, com tratamento via Power Query e scripts Pandas.</li>
+                <li data-i18n="exp.job1.b5">Identificação proativa de processos ineficientes e proposta de soluções tecnológicas.</li>
+              </ul>
+              <div class="chips">
+                <span class="chip">API</span><span class="chip">FastAPI</span><span class="chip">Power Platform</span><span class="chip">Copilot Studio</span>
+              </div>
+            </div>
+          </article>
+          <article class="timeline__item card reveal">
+            <div class="timeline__meta">
+              <span class="timeline__period" data-i18n="exp.job2.period">abr/2024 – mar/2026 · 2 anos</span>
+              <span class="timeline__place" data-i18n="exp.job2.place">Curitiba, PR · Presencial</span>
+            </div>
+            <div class="timeline__body">
+              <h3 class="timeline__role" data-i18n="exp.job2.role">Estagiário de TI — Automação e Dados</h3>
+              <p class="timeline__company">G5 Instrumentos Geotécnicos</p>
+              <ul class="timeline__bullets">
+                <li data-i18n="exp.job2.b1">Automação de processos: scripts em Python e fluxos no Power Automate para eliminar tarefas repetitivas no ambiente Windows.</li>
+                <li data-i18n="exp.job2.b2">Tratamento e padronização de bases operacionais (instrumentos geotécnicos e propostas comerciais) com Python (Pandas) e Power Query, gerando dashboards no Power BI.</li>
+                <li data-i18n="exp.job2.b3">Gerenciamento e expansão do site institucional via WordPress, com foco em usabilidade.</li>
+                <li data-i18n="exp.job2.b4">Suporte técnico interno de hardware e software.</li>
+              </ul>
+              <div class="chips">
+                <span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">Power BI</span><span class="chip">WordPress</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJETOS ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="eyebrow reveal" data-i18n="proj.eyebrow">Projetos em destaque</p>
+        <h2 class="section__title reveal" data-i18n="proj.title">Problema → solução → resultado</h2>
+
+        <article class="project card reveal">
+          <div class="project__visual project__visual--agent" aria-hidden="true">
+            <div class="agent-anim">
+              <span class="agent-anim__node"></span><span class="agent-anim__node"></span><span class="agent-anim__node"></span>
+              <span class="agent-anim__pulse"></span>
+            </div>
+          </div>
+          <div class="project__content">
+            <span class="project__tag" data-i18n="proj.p1.tag">Agente de IA · Intertechne · mai–jun/2026</span>
+            <h3 class="project__name">BUK Viagens</h3>
+            <p class="project__desc" data-i18n="proj.p1.desc">Assistente virtual corporativo para dúvidas sobre procedimentos de viagens — o primeiro agente de IA que desenvolvi de ponta a ponta.</p>
+            <dl class="project__case">
+              <div><dt data-i18n="proj.caseProblem">Problema</dt><dd data-i18n="proj.p1.problem">Colaboradores dependiam de consultas manuais a documentos e especialistas para tirar dúvidas sobre viagens corporativas.</dd></div>
+              <div><dt data-i18n="proj.caseSolution">Solução</dt><dd data-i18n="proj.p1.solution">Agente conversacional no Microsoft Copilot Studio com RAG (Retrieval-Augmented Generation) para respostas fundamentadas em documentos internos, com base de conhecimento estruturada (formatos de arquivo e repositório otimizados).</dd></div>
+              <div><dt data-i18n="proj.caseResult">Resultado</dt><dd data-i18n="proj.p1.result">Acesso imediato e confiável às regras de viagem, construído em parceria com o especialista de negócio e a equipe técnica de IA (GDAI), seguindo boas práticas de arquitetura.</dd></div>
+            </dl>
+            <div class="chips">
+              <span class="chip">Copilot Studio</span><span class="chip">RAG</span><span class="chip" data-i18n="proj.p1.chip3">Base de conhecimento</span>
+            </div>
+            <a class="project__link" href="https://www.linkedin.com/in/pedro-magno07/details/projects/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+              <span data-i18n="proj.linkedin">Ver no LinkedIn</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project project--reverse card reveal">
+          <div class="project__visual project__visual--dash" aria-hidden="true">
+            <div class="dash-anim">
+              <span class="dash-anim__bar" style="--h:60%"></span>
+              <span class="dash-anim__bar" style="--h:85%"></span>
+              <span class="dash-anim__bar" style="--h:40%"></span>
+              <span class="dash-anim__bar" style="--h:70%"></span>
+              <span class="dash-anim__bar" style="--h:55%"></span>
+            </div>
+          </div>
+          <div class="project__content">
+            <span class="project__tag" data-i18n="proj.p2.tag">Power BI · Intertechne · jun/2026</span>
+            <h3 class="project__name" data-i18n="proj.p2.name">Dashboard de Licenças Microsoft 365</h3>
+            <p class="project__desc" data-i18n="proj.p2.desc">Painel analítico para gerenciar a distribuição de licenças premium limitadas (Copilot Pro), monitorando engajamento e identificando acessos subutilizados para realocação.</p>
+            <dl class="project__case">
+              <div><dt data-i18n="proj.caseProblem">Problema</dt><dd data-i18n="proj.p2.problem">Licenças premium limitadas e caras, sem visibilidade de quem realmente as utilizava — risco de compra desnecessária de novas licenças.</dd></div>
+              <div><dt data-i18n="proj.caseSolution">Solução</dt><dd data-i18n="proj.p2.solution">ETL automatizado no Power Query que importa sempre o CSV mais recente do diretório sem intervenção manual; visuais customizados em Deneb com KPIs por ferramenta (Teams, Outlook, Word…) e cards com formatação condicional (Uso Regular / Em Alerta / Ociosa); navegação com sidebar minimizável e bookmarks.</dd></div>
+              <div><dt data-i18n="proj.caseResult">Resultado</dt><dd data-i18n="proj.p2.result">Realocação de licenças ociosas orientada por dados, evitando a compra desnecessária de novas licenças.</dd></div>
+            </dl>
+            <div class="chips">
+              <span class="chip">Power BI</span><span class="chip">Power Query</span><span class="chip">Deneb</span><span class="chip">UX/UI</span>
+            </div>
+            <a class="project__link" href="https://www.linkedin.com/in/pedro-magno07/details/projects/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+              <span data-i18n="proj.linkedin">Ver no LinkedIn</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project card reveal">
+          <div class="project__visual project__visual--app" aria-hidden="true">
+            <div class="app-anim">
+              <span class="app-anim__screen"></span><span class="app-anim__screen"></span><span class="app-anim__screen"></span>
+            </div>
+          </div>
+          <div class="project__content">
+            <span class="project__tag" data-i18n="proj.p3.tag">Power Apps + Power Automate · Intertechne · mar–abr/2026</span>
+            <h3 class="project__name" data-i18n="proj.p3.name">Sistema de Controle de Mobilização e Logística</h3>
+            <p class="project__desc" data-i18n="proj.p3.desc">Solução corporativa de ponta a ponta na Power Platform para centralizar a gestão logística de profissionais em campo, frotas, locações e controles financeiros.</p>
+            <dl class="project__case">
+              <div><dt data-i18n="proj.caseProblem">Problema</dt><dd data-i18n="proj.p3.problem">Modelo legado descentralizado em planilhas de Excel, com problemas históricos de concorrência de arquivos, perda de dados e falta de padronização.</dd></div>
+              <div><dt data-i18n="proj.caseSolution">Solução</dt><dd data-i18n="proj.p3.solution">Aplicativo modular em Power Apps (8 telas) com navegação em tabela, pesquisa e filtros dinâmicos, formulários CRUD e painel de KPIs no cabeçalho que se adapta em tempo real aos dados exibidos; SharePoint Online como banco de dados estruturado, com múltiplas listas interligadas para integridade relacional e performance; fluxos no Power Automate para transferência de status entre registros e alertas diários por e-mail sobre vencimento de contratos de locações e veículos.</dd></div>
+              <div><dt data-i18n="proj.caseResult">Resultado</dt><dd data-i18n="proj.p3.result">Gestão logística centralizada e padronizada, eliminando a concorrência de arquivos e a perda de dados do modelo em planilhas.</dd></div>
+            </dl>
+            <div class="chips">
+              <span class="chip">Power Apps</span><span class="chip">Power Automate</span><span class="chip">SharePoint</span>
+            </div>
+            <a class="project__link" href="https://www.linkedin.com/in/pedro-magno07/details/projects/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+              <span data-i18n="proj.linkedin">Ver no LinkedIn</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project project--reverse card reveal">
+          <div class="project__visual project__visual--aura" aria-hidden="true">
+            <div class="aura-anim">
+              <svg viewBox="0 0 100 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="aura-anim__shield" d="M50 5 L90 20 V56 C90 84 72 104 50 112 C28 104 10 84 10 56 V20 Z"/>
+                <path class="aura-anim__check" d="M33 58 l12 13 l23 -27"/>
+              </svg>
+            </div>
+          </div>
+          <div class="project__content">
+            <span class="project__tag" data-i18n="proj.p4.tag">Full-Stack · Python/FastAPI · PUC-PR · Instituto IBK</span>
+            <h3 class="project__name" data-i18n="proj.p4.name">AURA — Ambiente Unificado de Rastreio e Avaliação</h3>
+            <p class="project__desc" data-i18n="proj.p4.desc">Ferramenta de triagem para o Instituto Buko Kaesemodel (IBK) que apoia a identificação precoce da Síndrome do X Frágil a partir de checklists estruturados de sinais cognitivos, físicos e comportamentais.</p>
+            <dl class="project__case">
+              <div><dt data-i18n="proj.caseProblem">Problema</dt><dd data-i18n="proj.p4.problem">O IBK precisava de uma ferramenta digital para estruturar a triagem e apoiar a identificação precoce da Síndrome do X Frágil, no lugar de processos manuais.</dd></div>
+              <div><dt data-i18n="proj.caseSolution">Solução</dt><dd data-i18n="proj.p4.solution">Projeto full-stack desenvolvido em grupo (5 integrantes). Fiquei responsável pelo back-end e pelas APIs REST em Python com FastAPI, pelo painel administrativo completo (usuários, médicos, pacientes, triagens, convênios, logs e configurações) e pela segurança do sistema — autenticação JWT e blindagem de páginas por perfil de acesso.</dd></div>
+              <div><dt data-i18n="proj.caseResult">Resultado</dt><dd data-i18n="proj.p4.result">Sistema em produção (Vercel + Supabase/PostgreSQL), disponível 24/7, com documentação interativa das APIs via Swagger.</dd></div>
+            </dl>
+            <p class="project__note project__note--info" data-i18n="proj.p4.note">👥 Projeto acadêmico em grupo na disciplina de Experiência Criativa (PUCPR). Os pontos acima descrevem a minha contribuição individual.</p>
+            <div class="chips">
+              <span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">PostgreSQL</span><span class="chip">JWT</span><span class="chip">REST API</span>
+            </div>
+            <a class="project__link" href="https://github.com/pierrecraze/Projeto-AURA" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11.03 11.03 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.2.66.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+              <span data-i18n="proj.p4.repo">Ver no GitHub</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== FORMAÇÃO E CERTIFICAÇÕES ===== -->
+    <section class="section section--alt" id="education">
+      <div class="container">
+        <p class="eyebrow reveal" data-i18n="edu.eyebrow">Formação e Certificações</p>
+        <h2 class="section__title reveal" data-i18n="edu.title">Base acadêmica, prática contínua</h2>
+        <div class="edu__grid">
+          <article class="card edu__card reveal">
+            <h3 class="edu__name">PUCPR</h3>
+            <p class="edu__degree" data-i18n="edu.uni.degree">Bacharelado em Ciência da Computação</p>
+            <p class="edu__period" data-i18n="edu.uni.period">mar/2024 – dez/2028 · 4º período</p>
+            <ul class="edu__topics">
+              <li data-i18n="edu.uni.t1">Algoritmos e POO com Python e Java</li>
+              <li data-i18n="edu.uni.t2">Sistemas embarcados e IoT com MicroPython</li>
+              <li data-i18n="edu.uni.t3">Layouts web responsivos com HTML5 e CSS</li>
+              <li data-i18n="edu.uni.t4">Estruturas de dados e lógica de programação</li>
+            </ul>
+          </article>
+          <article class="card edu__card reveal">
+            <h3 class="edu__name" data-i18n="edu.tec.name">Colégio Est. Prof. José Guimarães</h3>
+            <p class="edu__degree" data-i18n="edu.tec.degree">Técnico em Análise e Desenvolvimento de Sistemas</p>
+            <p class="edu__period" data-i18n="edu.tec.period">fev/2022 – dez/2024</p>
+            <ul class="edu__topics">
+              <li data-i18n="edu.tec.t1">Lógica de programação, HTML/CSS, Linux</li>
+              <li data-i18n="edu.tec.t2">Metodologias ágeis: Scrum e Kanban</li>
+            </ul>
+          </article>
+        </div>
+        <h3 class="edu__certs-title reveal" data-i18n="edu.certsTitle">Certificações e Cursos</h3>
+        <ul class="certs">
+          <li class="cert-card card reveal">
+            <div class="cert-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11M15 9v11"/></svg></div>
+            <p class="cert-card__name" data-i18n="edu.c1">VBA: Automatizando Tarefas Diárias</p>
+            <div class="cert-card__meta">
+              <span class="cert-card__provider">Alura</span>
+              <span class="cert-card__date" data-i18n="edu.c1d">jul/2026</span>
+            </div>
+          </li>
+          <li class="cert-card card reveal">
+            <div class="cert-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="9" width="16" height="10" rx="3"/><path d="M12 5v4"/><circle cx="12" cy="3.5" r="1.5"/><path d="M9.5 13.5v.01M14.5 13.5v.01"/><path d="M9.5 16.2h5"/></svg></div>
+            <p class="cert-card__name" data-i18n="edu.c2">Copilot Studio: Criando soluções multiagentes</p>
+            <div class="cert-card__meta">
+              <span class="cert-card__provider">Alura</span>
+              <span class="cert-card__date" data-i18n="edu.c2d">mai/2026</span>
+            </div>
+          </li>
+          <li class="cert-card card reveal">
+            <div class="cert-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.8 4.8 1.8-4.8 1.8L12 16.2l-1.8-4.8L5.4 9.6l4.8-1.8z"/><path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9z"/></svg></div>
+            <p class="cert-card__name" data-i18n="edu.c3">Python: Inteligência Artificial Aplicada</p>
+            <div class="cert-card__meta">
+              <span class="cert-card__provider">Alura</span>
+              <span class="cert-card__date" data-i18n="edu.c3d">mai/2026</span>
+            </div>
+          </li>
+          <li class="cert-card card reveal">
+            <div class="cert-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 20V10M12 20V4M19 20v-8"/></svg></div>
+            <p class="cert-card__name" data-i18n="edu.c4">Pandas: transformação e manipulação de dados</p>
+            <div class="cert-card__meta">
+              <span class="cert-card__provider">Alura</span>
+              <span class="cert-card__date" data-i18n="edu.c4d">mai/2026</span>
+            </div>
+          </li>
+          <li class="cert-card card reveal">
+            <div class="cert-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/></svg></div>
+            <p class="cert-card__name" data-i18n="edu.c5">Power Automate: Automatizando tarefas de um analista de dados</p>
+            <div class="cert-card__meta">
+              <span class="cert-card__provider">Alura</span>
+              <span class="cert-card__date" data-i18n="edu.c5d">abr/2026</span>
+            </div>
+          </li>
+          <li class="cert-card card reveal">
+            <div class="cert-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><path d="M16.5 13v7M13 16.5h7"/></svg></div>
+            <p class="cert-card__name" data-i18n="edu.c6">Power Apps: Criando aplicativos personalizados para negócios</p>
+            <div class="cert-card__meta">
+              <span class="cert-card__provider">Alura</span>
+              <span class="cert-card__date" data-i18n="edu.c6d">abr/2026</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="eyebrow reveal" data-i18n="skills.eyebrow">Skills</p>
+        <h2 class="section__title reveal" data-i18n="skills.title">Do código à Power Platform</h2>
+        <div class="skills__grid">
+          <div class="card skill-group reveal">
+            <div class="skill-group__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17l6-6-6-6"/><path d="M12 19h8"/></svg>
+            </div>
+            <h3 data-i18n="skills.g1">Linguagens & Dados</h3>
+            <div class="chips"><span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">Java</span><span class="chip">C#</span><span class="chip">Pandas</span><span class="chip">SQL</span><span class="chip">PostgreSQL</span><span class="chip">VBA</span></div>
+          </div>
+          <div class="card skill-group reveal">
+            <div class="skill-group__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
+            </div>
+            <h3>Power Platform</h3>
+            <div class="chips"><span class="chip">Power BI</span><span class="chip">Power Automate</span><span class="chip">Power Apps</span><span class="chip">Power Query</span><span class="chip">Copilot Studio</span></div>
+          </div>
+          <div class="card skill-group reveal">
+            <div class="skill-group__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="9" width="16" height="10" rx="3"/><path d="M12 5v4"/><circle cx="12" cy="3.5" r="1.5"/><path d="M9.5 13.5v.01M14.5 13.5v.01"/><path d="M9.5 16.2h5"/><path d="M1.5 12.5v3M22.5 12.5v3"/></svg>
+            </div>
+            <h3 data-i18n="skills.g3">IA & Agentes</h3>
+            <div class="chips"><span class="chip" data-i18n="skills.g3c1">Agentes de IA</span><span class="chip">RAG</span><span class="chip">Copilot Studio</span></div>
+          </div>
+          <div class="card skill-group reveal">
+            <div class="skill-group__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.9 5.7 3.9 9S14.5 18.4 12 21c-2.5-2.6-3.9-5.7-3.9-9S9.5 5.6 12 3z"/></svg>
+            </div>
+            <h3 data-i18n="skills.g4">Web & Outros</h3>
+            <div class="chips"><span class="chip">HTML5</span><span class="chip">CSS</span><span class="chip">FastAPI</span><span class="chip">API REST</span><span class="chip">WordPress</span><span class="chip">MicroPython/IoT</span><span class="chip">Linux</span><span class="chip">Scrum/Kanban</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section class="section section--contact" id="contact">
+      <div class="container container--narrow">
+        <p class="eyebrow reveal" data-i18n="contact.eyebrow">Contato</p>
+        <h2 class="section__title reveal" data-i18n="contact.title">Vamos automatizar alguma coisa?</h2>
+        <p class="section__text reveal" data-i18n="contact.text">Me chame por e-mail, LinkedIn ou confira meu código no GitHub.</p>
+        <div class="contact__actions reveal">
+          <a href="mailto:phmagnolopes@gmail.com" class="btn btn--primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="btn__icon"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7.5 8 6 8-6"/></svg>
+            <span data-i18n="contact.emailBtn">E-mail</span>
+          </a>
+          <a href="https://www.linkedin.com/in/pedro-magno07" target="_blank" rel="noopener" class="btn btn--ghost">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="btn__icon"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/PedroMagno07" target="_blank" rel="noopener" class="btn btn--ghost">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="btn__icon"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11.03 11.03 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.2.66.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            GitHub
+          </a>
+          <a href="assets/Pedro-Magno-CV.pdf" download class="btn btn--ghost" id="cvBtn" data-i18n="contact.cv">Baixar currículo (PDF)</a>
+        </div>
+        <p class="contact__email reveal"><a href="mailto:phmagnolopes@gmail.com">phmagnolopes@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy" data-i18n="footer.copy">© 2026 Pedro Magno · Curitiba, PR — Brasil</p>
+      <div class="footer__right">
+        <a href="https://www.linkedin.com/in/pedro-magno07" target="_blank" rel="noopener" class="footer__link">LinkedIn</a>
+        <a href="https://github.com/PedroMagno07" target="_blank" rel="noopener" class="footer__link">GitHub</a>
+        <a href="mailto:phmagnolopes@gmail.com" class="footer__link">E-mail</a>
+        <div class="nav__lang" role="group" aria-label="Idioma / Language">
+          <button class="lang-btn" data-lang="pt" aria-pressed="true">PT</button>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js?v=6"></script>
+  <script src="js/main.js?v=6"></script>
+</body>
+</html>
